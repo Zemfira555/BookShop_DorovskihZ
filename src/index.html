@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+	<!-- 180x180 - ставим первым для safari --> 
+	<link rel="icon" href="./favicon.ico" sizes="any"><!-- 32x32 --> 
+	<link rel="manifest" href="./manifest.webmanifest">
+	<link rel="yandex-tableau-widget" href="./tableau.json">
+	<title>Bookshop</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__wrapper">
+			<span class="logo">Bookshop</span>
+			<nav class="header__nav">
+				<ul class="header__nav_items">
+					<li class="header__nav_item">
+						<a href="#">BOOKS</a>
+					</li>
+					<li class="header__nav_item">
+						<a href="#">AUDIOBOOKS</a>
+					</li>
+					<li class="header__nav_item">
+						<a href="#">STATIONERY & GIFTS</a>
+					</li>
+					<li class="header__nav_item">
+						<a href="#">BLOG</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="buttons">	 
+				<button id="user" class="button button-user"><img src="./images/svg/user.svg"></button>
+				<button id="search" class="button button-search"><img src="./images/svg/search.svg"></button>
+				<button id="cart" class="button button-bag"><img src="./images/svg/shop-bag.svg"></button>
+			</div>
+		</div>
+	</header>
+	<main class="main">	
+		<section class="banner">
+			<div class="conteiner conteiner__banner">
+				<div class="contener_conteiner" id="slide">
+					<div class="banner__wrapper">
+						<a href="#"><img src="./images/png/promo-1.png" class="promo_img promo_1" alt="promo"></a>
+						<a href="#"><img src="./images/png/promo-2.png" class="promo_img promo_2" alt="promo"></a>
+						<img src="./images/png/banner-1.png" alt="banner">
+					</div>
+					<div class="banner__wrapper">
+						<a href="#"><img src="./images/png/promo-1.png" class="promo_img promo_1" alt="promo"></a>
+						<a href="#"><img src="./images/png/promo-2.png" class="promo_img promo_2" alt="promo"></a>
+						<img src="./images/png/banner-2.png" alt="banner">
+					</div>
+					<div class="banner__wrapper">
+						<a href="#"><img src="./images/png/promo-1.png" class="promo_img promo_1" alt="promo"></a>
+						<a href="#"><img src="./images/png/promo-2.png" class="promo_img promo_2" alt="promo"></a>
+						<img src="./images/png/banner-3.png" alt="banner">
+					</div>
+				</div>
+				<div class="bullits" id="bullits">
+					<div class="bullit"></div>
+					<div class="bullit"></div>
+					<div class="bullit"></div>
+				</div>
+			</div>
+		</section>
+		<section class="content">
+			<div class="conteiner conteiner__navigation">
+				<ul>
+					<li data-url="Architecture">Architecture</li>
+					<li data-url="Art">Art & Fashion</li>
+					<li data-url="Biography & Autobiography">Biography</li>
+					<li data-url="Business">Business</li>
+					<li data-url="Crafts & Hobbies">Crafts & Hobbies</li>
+					<li data-url="Drama">Drama</li>
+					<li data-url="Fiction">Fiction</li>
+					<li data-url="Cooking">Food & Drink</li>
+					<li data-url="Health & Fitness">Health & Wellbeing</li>
+					<li data-url="History">History & Politics</li>
+					<li data-url="Humor">Humor</li>
+					<li data-url="Poetry">Poetry</li>
+					<li data-url="Psychology">Psychology</li>
+					<li data-url="Science">Science</li>
+					<li data-url="Technology">Technology</li>
+					<li data-url="Travel">Travel & Maps</li>
+				</ul>
+			</div>
+			<div class="conteiner conteiner__content">
+				<div id="books"></div>
+				<div class="loader"><button id="load-more">Load More</button></div>
+			</div>
+		</section>
+	</main>
+	<footer class="">
+		
+	</footer>
+	
+</body>
+</html>
